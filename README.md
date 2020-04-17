@@ -3,7 +3,7 @@
 One might want to validate changes made to a .gitlab-ci.yml file before commiting changes. This could be to avoid seeing the pipeline error or just to have
 a sanity check while making changes. 
 
-Luckily gitlab offers an api-endpoint to enable this, found [here] (https://docs.gitlab.com/ee/api/lint.html). We can create a curl request to this 
+Luckily gitlab offers an api-endpoint to enable this, found (here) [https://docs.gitlab.com/ee/api/lint.html]. We can create a curl request to this 
 api endpoint to check the file. Since a lot of us work on the terminal, we can create a function automate this. 
 
 # Setup
